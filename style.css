@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
 }
 
 :root{
@@ -21,4 +22,80 @@ header{
     height: 6rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #fff;
+}
+
+.primeira{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+
+.primeira p{
+    width: 70%;
+    font-weight: 700;
+}
+
+.primeira img{
+    width: 20rem;
+    display: flex;
+    float: right;
+}
+
+.segunda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: var(--black);
+    margin-bottom: 0rem;
+}
+
+img .liver, .city{
+    max-width: 100%;
+    height: auto;
+}
+
+.segunda p{
+    width: 40%;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.liver{
+    width: 10rem;
+    height: auto;
+}
+
+.city{
+    width: 10rem;
+    height: auto;
+}
+
+.terceira {
+    background-color: var(--blue-cinza);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.2rem;
+}
+
+.terceira img{
+    width: 50%;
+    height: auto;
+}
+
+.terceira h2{
+    color: var(--blue-claro);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-weight: 800;
 }
